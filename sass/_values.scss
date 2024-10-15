@@ -32,3 +32,16 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .values{
+        &__list{
+            flex-direction: column;
+            gap: 30px;
+        }
+        &__card{
+            width: 100%;
+        }
+    }
+    
+}
